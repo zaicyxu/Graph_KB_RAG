@@ -1,0 +1,206 @@
+Question,Ground Truth,Answer,Exact  Accuracy
+Which manufactor work on electronics business and power from renewable energy?,"power_from('arkelectronics.com', fossil).
+power_from('arkelectronics.com', water).
+power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('jemelectronics.com', fossil).
+power_from('jemelectronics.com', wind).
+power_from('www.aceelectronics.com', fossil).
+power_from('www.aceelectronics.com', wind).
+power_from('www.cirtek-electronics.com', fossil).
+power_from('www.cirtek-electronics.com', wind).","arkelectronics.com': uses 'water'
+'empowering-technologies.com': uses 'water'
+'jemelectronics.com': uses 'wind'
+'www.aceelectronics.com': uses 'wind'
+'www.cirtek-electronics.com': uses 'wind'",0.5
+Which manufactor belong to automotive industry and use renewable energy?,"Manufacturer Details:
+ Manufacturer: www.adacautomotive.com
+  Certifications: ISO 14064
+  Businesses: 3d_printing, assembly
+  Power Sources: fossil
+  Relationships: certify('www.adacautomotive.com', iso_14064), power_from('www.adacautomotive.com', fossil), work_on('www.adacautomotive.com', '3d_printing'), work_on('www.adacautomotive.com', assembly)
+
+Manufacturer: www.fluidenergype.com
+  Industries: electric
+  Materials: alloy, alumina, carbide, steel, tungsten
+  Certifications: ISO 14064, ISO9001
+  Businesses: assembly, grinding, milling, mining, polishing
+  Power Sources: fossil, water
+  Relationships: belong('www.fluidenergype.com', electric), certify('www.fluidenergype.com', iso9001), certify('www.fluidenergype.com', iso_14064), power_from('www.fluidenergype.com', fossil), power_from('www.fluidenergype.com', water), process('www.fluidenergype.com', alloy), process('www.fluidenergype.com', alumina), process('www.fluidenergype.com', carbide), process('www.fluidenergype.com', steel), process('www.fluidenergype.com', tungsten), work_on('www.fluidenergype.com', assembly), work_on('www.fluidenergype.com', grinding), work_on('www.fluidenergype.com', milling), work_on('www.fluidenergype.com', mining), work_on('www.fluidenergype.com', polishing)
+
+Manufacturer: www.cleanenergyfuels.com
+  Industries: electric, electrical, engine , military, petroleum, ventilation
+  Materials: alloy, steel
+  Certifications: EPA, PAS 2060
+  Businesses: assembly, drilling, forming, mining, turning
+  Power Sources: fossil, water
+  Relationships: belong('www.cleanenergyfuels.com', electric), belong('www.cleanenergyfuels.com', electrical), belong('www.cleanenergyfuels.com', engine), belong('www.cleanenergyfuels.com', military), belong('www.cleanenergyfuels.com', petroleum), belong('www.cleanenergyfuels.com', ventilation), certify('www.cleanenergyfuels.com', epa), certify('www.cleanenergyfuels.com', pas_2060), power_from('www.cleanenergyfuels.com', fossil), power_from('www.cleanenergyfuels.com', water), process('www.cleanenergyfuels.com', alloy), process('www.cleanenergyfuels.com', steel), work_on('www.cleanenergyfuels.com', assembly), work_on('www.cleanenergyfuels.com', drilling), work_on('www.cleanenergyfuels.com', forming), work_on('www.cleanenergyfuels.com', mining), work_on('www.cleanenergyfuels.com', turning)
+
+Manufacturer: www.energymfg.com
+  Certifications: ISO 14064, ISO9001
+  Businesses: assembly
+  Power Sources: fossil, water
+  Relationships: certify('www.energymfg.com', iso9001), certify('www.energymfg.com', iso_14064), power_from('www.energymfg.com', fossil), power_from('www.energymfg.com', water), work_on('www.energymfg.com', assembly)
+
+Manufacturer: darkenergycreations.com
+  Industries: medical
+  Materials: glass, plastic, steel
+  Businesses: assembly, laser_engraving, milling, threading, turning
+  Power Sources: fossil, water
+  Relationships: belong('darkenergycreations.com', medical), power_from('darkenergycreations.com', fossil), power_from('darkenergycreations.com', water), process('darkenergycreations.com', glass), process('darkenergycreations.com', plastic), process('darkenergycreations.com', steel), work_on('darkenergycreations.com', assembly), work_on('darkenergycreations.com', laser_engraving), work_on('darkenergycreations.com', milling), work_on('darkenergycreations.com', threading), work_on('darkenergycreations.com', turning)",,0
+Which manufactor process recycled aluminum and power from renewable energy?,"power_from('abc-aluminum.com', fossil).
+power_from('abc-aluminum.com', water).
+power_from('laaluminum.com', fossil).
+power_from('laaluminum.com', wind).
+power_from('premieraluminum.com', fossil).
+power_from('www.aluminumcastingscorp.com', fossil).
+power_from('www.aluminumcastingscorp.com', water).
+power_from('www.aluminumprecision.com', fossil).
+power_from('www.aluminumprecision.com', water).","abc-aluminum.com
+laaluminum.com
+www.aluminumcastingscorp.com
+www.aluminumprecision.com",0.88
+Which manufactor have ISO14001 certification and power from renewable energy?,"`power_from('accuritetool.com', water).`
+`power_from('accuritetool.com', wind).`
+`power_from('empowering-technologies.com', water).`
+`power_from('www.intechpower.com', water).`
+`power_from('www.signalandpower.com', water).`","accuritetool.com, www.signalandpower.com.",0.4
+Which manufactor work on construction service and power from renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('fishermanufacturingservices.com', fossil).
+power_from('hess-services.com', fossil).
+power_from('hess-services.com', water).
+power_from('pioneerserviceinc.com', fossil).
+power_from('rrmachineservice.com', fossil).
+power_from('rrmachineservice.com', wind).","rrmachineservice.com, hess-services.com",0.5
+Which manufactor belong to textile industry and use renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('fishermanufacturingservices.com', fossil).
+power_from('hess-services.com', fossil).
+power_from('hess-services.com', water).
+power_from('pioneerserviceinc.com', fossil).
+power_from('rrmachineservice.com', fossil).
+power_from('rrmachineservice.com', wind).","`hess-services.com` 
+`rrmachineservice.com` ",0.5
+Which manufactor process biodegradable material and power from renewable energy?,"power_from('apsmaterials.com', fossil).
+power_from('apsmaterials.com', wind).
+power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('fibrematerials.com', fossil).
+power_from('fibrematerials.com', water).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).",apsmaterials.com,0.2
+Which manufactor have both ISO9001 and OHSAS18001 certifications and use renewable energy?,"power_from('149401-us.all.biz', fossil).
+power_from('149401-us.all.biz', water).
+power_from('149401-us.all.biz', wind).",149401-us.all.biz,1
+Which manufactor work on software service but power from renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('fishermanufacturingservices.com', fossil).
+power_from('hess-services.com', fossil).
+power_from('hess-services.com', water).
+power_from('pioneerserviceinc.com', fossil).
+power_from('rrmachineservice.com', fossil).
+power_from('rrmachineservice.com', wind).",,0
+Which manufactor belong to agriculture industry and use renewable energy?,"power_from('asq.org', fossil).
+power_from('asq.org', water).
+power_from('atlasmachine.com', fossil).
+power_from('atlasmachine.com', water).
+power_from('www.cleanenergyfuels.com', fossil).
+power_from('www.cleanenergyfuels.com', water).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).","`power_from('asq.org', water).`, `power_from('atlasmachine.com', water).`, `power_from('www.cleanenergyfuels.com', water).`, `power_from('www.energymfg.com', water).`, and `power_from('www.fluidenergype.com', water).`",1
+Which manufactor process organic cotton and power from renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('www.cleanenergyfuels.com', fossil).
+power_from('www.cleanenergyfuels.com', water).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).
+power_from('www.signalandpower.com', fossil).
+power_from('www.signalandpower.com', water).",www.signalandpower.com',0.4
+Which manufactor have FSC certification and power from renewable energy?,"power_from('149401-us.all.biz', fossil).
+power_from('149401-us.all.biz', water).
+power_from('149401-us.all.biz', wind).",149401-us.all.biz,1
+Which manufactor work on logistics service and power from renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('fishermanufacturingservices.com', fossil).
+power_from('hess-services.com', fossil).
+power_from('hess-services.com', water).
+power_from('pioneerserviceinc.com', fossil).
+power_from('rrmachineservice.com', fossil).
+power_from('rrmachineservice.com', wind).",fishermanufacturingservices.com?rrmachineservice.com?pioneerserviceinc.com,0.4
+Which manufactor belong to marine industry and use renewable energy?,"power_from('asq.org', fossil).
+power_from('asq.org', water).
+power_from('atlasmachine.com', fossil).
+power_from('atlasmachine.com', water).
+power_from('www.cleanenergyfuels.com', fossil).
+power_from('www.cleanenergyfuels.com', water).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).","www.cleanenergyfuels.com'
+'www.energymfg.com'
+'www.fluidenergype.com'",0.6
+Which manufactor process recycled plastic and power from renewable energy?,"power_from('alliedplastics.com', fossil).
+power_from('alliedplastics.com', wind).
+power_from('apexplasticfinishing.com', fossil).
+power_from('apexplasticfinishing.com', wind).
+power_from('azmexplastics.com', fossil).
+power_from('azmexplastics.com', water).
+power_from('bteplastics.com', fossil).
+power_from('canyonplastics.com', fossil).
+power_from('canyonplastics.com', water).","alliedplastics.com
+apexplasticfinishing.com
+azmexplastics.com
+canyonplastics.com",0.8
+Which manufactor have LEED certification and use renewable energy?,"power_from('leed-himmel.com', fossil).
+power_from('leed-himmel.com', wind).
+power_from('leedhimmelextrusions.com', fossil).
+power_from('leedhimmelextrusions.com', water).
+power_from('www.cleanenergyfuels.com', fossil).
+power_from('www.cleanenergyfuels.com', water).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).","leed-himmel.com, leedhimmelextrusions.com, www.energymfg.com, and www.fluidenergype.com.",0.8
+Which manufactor work on healthcare service and power from renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('fishermanufacturingservices.com', fossil).
+power_from('hess-services.com', fossil).
+power_from('hess-services.com', water).
+power_from('pioneerserviceinc.com', fossil).
+power_from('rrmachineservice.com', fossil).
+power_from('rrmachineservice.com', wind).","empowering-technologies.com, fishermanufacturingservices.com",0.45
+Which manufactor belong to electronics industry and use renewable energy?,"power_from('arkelectronics.com', fossil).
+power_from('arkelectronics.com', water).
+power_from('jemelectronics.com', fossil).
+power_from('jemelectronics.com', wind).
+power_from('www.aceelectronics.com', fossil).
+power_from('www.aceelectronics.com', wind).
+power_from('www.cirtek-electronics.com', fossil).
+power_from('www.cirtek-electronics.com', wind).
+power_from('www.empireelectronics.com', fossil).
+power_from('www.empireelectronics.com', wind).","arkelectronics.com, jemelectronics.com, www.aceelectronics.com, www.cirtek-electronics.com, www.empireelectronics.com.",1
+Which manufactor process fiber and power from renewable energy?,"power_from('empowering-technologies.com', fossil).
+power_from('empowering-technologies.com', water).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).
+power_from('www.moldedfiberglass.com', fossil).
+power_from('www.moldedfiberglass.com', water).
+power_from('www.moldedfiberglass.com', wind).
+power_from('www.signalandpower.com', fossil).
+power_from('www.signalandpower.com', water).",empowering-technologies.com and www.moldedfiberglass.com.,0.4
+Which manufactor have PAS2060 certification and use renewable energy?,"power_from('www.cleanenergyfuels.com', fossil).
+power_from('www.cleanenergyfuels.com', water).
+power_from('www.energybeams.com', fossil).
+power_from('www.energymfg.com', fossil).
+power_from('www.energymfg.com', water).
+power_from('www.fluidenergype.com', fossil).
+power_from('www.fluidenergype.com', water).",www.cleanenergyfuels.com,0.33
